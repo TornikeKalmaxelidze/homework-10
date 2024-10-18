@@ -1,0 +1,41 @@
+/* 480px-320px */
+
+
+/* 481px */
+@media (max-width:481px) {
+    header {
+        padding-inline: 8px;
+
+    }
+
+    .section1 {
+        height: 320px;
+    }
+
+    .section1_text {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .section2 {
+        height: 394px;
+    }
+    .section2_caption {
+        font-size:  22x;
+
+    }
+    .product_section {
+        overflow-x: scroll;
+        flex: 1 0 290px;
+        background-size: cover;
+    }
+   
+    .section2_caption {
+        font-size: 24px;
+    }
+    footer {
+        padding: 64px;
+       flex-wrap: wrap;
+       height: 544px;
+    }
+}

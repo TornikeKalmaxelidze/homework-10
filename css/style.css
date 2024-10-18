@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header  */
+.burger {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #311500;
+    padding: 18px 94px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav_ul {
+    display: flex;
+    column-gap: 36px;
+}
+
+.header_logo_a {
+    display: flex
+}
+
+.active {
+    color: #C46A2B;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.44023728370666504px;
+    transition: all;
+    transition: 0.2s linear;
+}
+
+.active:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 15px black;
+    color: black;
+}
+
+.unactive {
+    color: #DEE2EB;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.44023728370666504px;
+    transition: all;
+    transition: 0.2s linear;
+}
+
+.unactive:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 15px black;
+    color: black;
+}
+
+button {
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    background: #C46A2B;
+    cursor: pointer;
+}
+
+.span_button {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: -0.44023728370666504px;
+    color: #DEE2EB;
+    transition: all;
+    transition: 0.2s linear;
+}
+
+
+
+/* section1  */
+.section1 {
+    background-image: url(..//imagine/backgroundimg.png);
+    background-position: center;
+    height: 640px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+}
+
+.section1_text {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.10000000149011612px;
+    color: #FFFFFF;
+    column-gap: 39px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.section_sign {
+    width: 56px;
+    height: 56px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+/* section2   */
+.section2 {
+    height: 100%;
+    background: #DEE2EB;
+    padding: 94px 94px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    /* overflow-x: scroll;
+    flex: 1 0 291px; */
+}
+
+.section2_caption {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #311500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    width: 298px;
+    height: 290px;
+    padding: 8px 8px 16px 8px;
+    background: #311500;
+    border-radius: 10px;
+    transition: all;
+    transition: 0.2s linear;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px black;
+}
+
+h2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #C46A2B;
+}
+
+.price_add_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    margin-top: 25px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #DEE2EB;
+}
+
+.item_selectior {
+    width: 27px;
+    height: 27px;
+    padding: 6px 6px 5px 5px;
+    border-radius: 8px;
+    border: 1px;
+    margin-top: 25px;
+}
+
+/* footer  */
+footer {
+    height:  272px;
+    background: #311500;
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.footer_title {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #C46A2B;
+  
+    
+
+
+
+}
+
+.font {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 8px;
+   
+
+
+}
